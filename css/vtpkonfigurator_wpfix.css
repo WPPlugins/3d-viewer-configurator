@@ -1,0 +1,9 @@
+.vtpkonfigurator img {
+	max-width: none;
+}
+.vtpkonfigurator div {
+	line-height: 0;
+}
+.vtpkonfigurator_zoom_loading {
+	line-height: normal !important;
+}

@@ -1,0 +1,151 @@
+.vtpkonfigurator_canvas > * {
+	display: inline-block;
+	vertical-align: top;
+}
+.vtpkonfigurator_zoom {
+	width: 33px;
+	height: 33px;
+	background-image: url(../img/zoom.png);
+	background-position: 9px 9px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border: 1px solid #cccccc;
+}
+
+.vtpkonfigurator_zoom.active {
+	background-image: url(../img/zoom-active.png);
+	border: 1px solid #aa0000;
+}
+
+.vtpkonfigurator_zoom_canvas {
+	position: absolute;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	border: 0;
+	overflow: hidden;
+}
+
+.vtpkonfigurator_zoom_canvas img {
+	position: relative;
+	cursor: move;
+}
+
+.vtpkonfigurator_zoom_loading {
+	width: 120px;
+	height: 25px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -12px;
+}
+#vtpkonfigurator_authorlink {
+	visibility: hidden;
+	text-align: center !important;
+	padding-top: 10px;
+}
+#vtpkonfigurator_authorlink a {
+	position: relative;
+	margin-top: 10px;
+	z-index: 99;
+}
+.vtpkonfigurator img {
+	border: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.vtpkonfigurator_zoom_closebutton {
+	width: 35px;
+	height: 36px;
+	background-image: url(../img/button-close.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+
+
+/* Backend: buy */
+#buy {
+	width: 650px;
+	float: left;
+}
+#buy td,#buy th, #buy p {
+	font-family: Verdana, Arial;
+	font-size: 14px;
+}
+#buy td {
+	text-align: center;
+	vertical-align: top;
+	height: 29px;
+	padding: 5px 5px 0 5px;
+}
+#buy th {
+	padding: 5px;
+}
+#buy tr.first td {
+	height: 5px;
+	padding: 0;
+}
+#buy .left {
+	text-align: left;
+}
+#buy table {
+	border-top: 1px #000000 solid;
+	border-left: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+}
+#buy th, #buy td  {
+	border-right: 1px #000000 solid;
+}
+#buy th {
+	border-bottom: 1px #000000 solid;
+}
+#buy .tick-grey {
+	background: url(../img/tick-grey.png) top center no-repeat;
+}
+#buy .tick-green {
+	background: url(../img/tick-green.png) top center no-repeat;
+}
+.red {
+	color: #c70404;
+}
+.green {
+	color: #688a07;
+}
+
+/* button style based on twitter bootstrap */
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #009de0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #000;
+}
+
+#register {
+	display: none;
+}
